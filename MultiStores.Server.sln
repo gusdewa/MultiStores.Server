@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MultiStores.Server", "src\MultiStores.Server\MultiStores.Server.xproj", "{B7B38C3B-55F1-4C61-8F77-CE059D7C7D3C}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MultiStores.Server.DataAccess", "src\MultiStores.Server.DataAccess\MultiStores.Server.DataAccess.xproj", "{E6591DA0-2BAC-40F1-89E7-F9C59C7CED43}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MultiStores.Server.Models", "src\MultiStores.Server.Models\MultiStores.Server.Models.xproj", "{05710F82-9F9C-4BBE-8EB9-BEF1AAD234B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,21 @@ Global
 		{B7B38C3B-55F1-4C61-8F77-CE059D7C7D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B38C3B-55F1-4C61-8F77-CE059D7C7D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B38C3B-55F1-4C61-8F77-CE059D7C7D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6591DA0-2BAC-40F1-89E7-F9C59C7CED43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6591DA0-2BAC-40F1-89E7-F9C59C7CED43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6591DA0-2BAC-40F1-89E7-F9C59C7CED43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6591DA0-2BAC-40F1-89E7-F9C59C7CED43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05710F82-9F9C-4BBE-8EB9-BEF1AAD234B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05710F82-9F9C-4BBE-8EB9-BEF1AAD234B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05710F82-9F9C-4BBE-8EB9-BEF1AAD234B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05710F82-9F9C-4BBE-8EB9-BEF1AAD234B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B7B38C3B-55F1-4C61-8F77-CE059D7C7D3C} = {CE974A1A-D957-4B46-9897-E28C88B69448}
+		{E6591DA0-2BAC-40F1-89E7-F9C59C7CED43} = {CE974A1A-D957-4B46-9897-E28C88B69448}
+		{05710F82-9F9C-4BBE-8EB9-BEF1AAD234B1} = {CE974A1A-D957-4B46-9897-E28C88B69448}
 	EndGlobalSection
 EndGlobal
